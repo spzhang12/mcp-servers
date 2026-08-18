@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "dida365": {
+      "command": "node",
+      "args": [
+        "D:/path/to/mcp-servers/dida365-mcp/src/index.js"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

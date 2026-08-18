@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dida365": {
+      "type": "streamableHttp",
+      "url": "https://example.your-domain.com/mcp",
+      "headers": {
+        "Authorization": "Bearer CHANGE_ME_TO_A_LONG_RANDOM_TOKEN"
+      }
+    }
+  }
+}
