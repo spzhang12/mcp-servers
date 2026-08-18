@@ -1,0 +1,38 @@
+{
+  "name": "dida365-mcp",
+  "version": "0.1.0",
+  "description": "Universal MCP server for Dida365 Open API, with stdio and Streamable HTTP transports.",
+  "type": "module",
+  "license": "MIT",
+  "author": "spzhang12",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spzhang12/mcp-servers.git",
+    "directory": "dida365-mcp"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "dida365",
+    "ticktick",
+    "todo",
+    "task-management"
+  ],
+  "bin": {
+    "dida365-mcp": "./src/index.js",
+    "dida365-mcp-http": "./src/http.js"
+  },
+  "scripts": {
+    "configure": "node ./scripts/configure-token.js",
+    "start": "node ./src/index.js",
+    "start:stdio": "node ./src/index.js",
+    "start:http": "node ./src/http.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
